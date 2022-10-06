@@ -2,7 +2,7 @@
 
 #Specification:
 
-Build a SPA using MERN application using mongoDB to hold backend of website, including client dashboard and endpoints. Connect to server using express, created the front-end form to collect data using React, and coding in the Node.js environment. Dockerize API server and React App.
+Building a SPA using MERN application https://expansivedesigns.com/projects/befound using mongoDB to hold backend of website, including client dashboard and endpoints. Connect to server using express, created the front-end form to collect data using React, and coding in the Node.js environment. Dockerize API server and React App.
 
 Task #1 - Completed 2/28/2021
 Create schemas and models for banner images, services, and main website content.  Use HTTP Web services to perform CRUD operation that create REST API enpoint.  
