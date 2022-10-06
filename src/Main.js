@@ -15,8 +15,8 @@ export default function Main(){
 				//const response = await fetch(`https://api.unsplash.com/photos/random?client_id=p2bChyPOiavirooedfC2QlV7Iks1lGKbMNEagO8MNlg&query=woman-face&orientation=portrait&count=1&include_adult=false`)
 				const response = await fetch(`https://webdata-api.herokuapp.com`)
 				const data = await response.json()
-				setAboutImages(data.results.about)
-				setServicesImages(data.results.services)
+				setAboutImages(data[0].results.about)
+				setServicesImages(data[0].results.services)
 
 				//console.log(data.results.team)
 			} catch(err){

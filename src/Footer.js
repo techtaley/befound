@@ -26,7 +26,7 @@ export default function Footer(){
 						We'll email you about new items!
 					</p>
 
-					<form className="subscribe_form" action="mailto:taloveous@expansivedesigns.com" method="post" enctype="text/plain">
+					<form className="subscribe_form" action="mailto:taloveous@expansivedesigns.com" method="post" encType="text/plain">
 						<input
 							className="subscribe_email"
 							type="text"

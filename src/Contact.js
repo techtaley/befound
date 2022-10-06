@@ -10,11 +10,11 @@ export default function Contact(){
 				<iframe 
 					className="google_map" 
 					title="{}"
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.70859824347!2d-73.87162168515073!3d40.72443097933047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e46cc1fbd1f%3A0x382fe1038e09145b!2s9800%20Woodhaven%20Blvd%2C%20Rego%20Park%2C%20NY%2011374!5e0!3m2!1sen!2sus!4v1591109676630!5m2!1sen!2sus" frameborder="0" 
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.70859824347!2d-73.87162168515073!3d40.72443097933047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e46cc1fbd1f%3A0x382fe1038e09145b!2s9800%20Woodhaven%20Blvd%2C%20Rego%20Park%2C%20NY%2011374!5e0!3m2!1sen!2sus!4v1591109676630!5m2!1sen!2sus" frameBorder="0" 
 					//style="{}" 
-					allowfullscreen=""
+					allowFullscreen=""
 					aria-hidden="false" 
-					tabindex="0"
+					tabIndex="0"
 				>
 				</iframe>
 
@@ -29,7 +29,7 @@ export default function Contact(){
 							type="text"
 							name="name"
 							placeholder="Your full name"
-							maxlength="30"
+							maxLength="30"
 						/>
 												
 						<input

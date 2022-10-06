@@ -16,6 +16,7 @@ export default function Banner(){
 		</div>
 	)
 }
+
 // export default function Banner({image, key, alt, title, desc, link}){
 
 // 	return (
