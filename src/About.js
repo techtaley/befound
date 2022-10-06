@@ -3,7 +3,7 @@ import React from 'react'
 export default function About({image, alt, name, title, heading, desc}){
 	return (
 		<>
-			<h2 className="about-title turquoise">About</h2>
+			<h2 className="about-title turquoise">About Me</h2>
 
 			<div className="section about_section_one">
 				<div className="subsection">
